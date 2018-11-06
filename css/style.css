@@ -7,11 +7,14 @@
   .card-body {
     max-height: 160px;
   }
+  #me {
+    padding-left: 115px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .card-body {
-    min-height: 278px;
+    min-height: 130px;
   }
 }
 
