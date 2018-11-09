@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My portfolio</title>
+    <title>TCL - Wireless tachometer</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body>
@@ -29,6 +29,61 @@
         </div>
     </nav>
 
+    <div class="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="section-title ">TCL - Wireless tachometer</h2>
+                    <div class="border1"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center link">
+                    <h5 class="gen_p">This is the first team project I worked on. Along with my friend
+                    <a href="https://github.com/stelro">Stelro</a> he had the task to implement a real time
+                    system to measure the RPM of a single fan and get graphical representation. After the first version,
+                    a new task presented. To implement the system for 15 fans with the use of a CD74HC4067 multiplexer.
+                    I implemented the hardware changes and installation of 15 sensors, while Stelro worked on the new
+                    <a href="https://github.com/stelro/TCL">GUI</a> with
+                    <a href="https://www.qt.io/">Qt Framework</a> and
+                    <a href="http://www.cplusplus.com/doc/tutorial/">C++</a>.
+
+                  </h5>
+                    <div class="border1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center ">
+                    <h3 class="section-title">TCL's operation</h3>
+                    <div class="border1"></div>
+                    <p class="gen_p">The system uses infrared sensors to be installed near the calculated fan-turbines.
+                    On every round, the system calculates the passes of a single second and by multiplication it finds the RPM.
+                    There are different codes on TCL repository, giving examples of the possibillities.
+                    </p>
+                    <div class="border1"></div>
+
+                    <div class="btn_b">
+                        <a class="btn btn-primary" href="https://github.com/mikekolas/tachometer">View Code</a>
+                    </div>
+                </div>
+
+
+                <!-- <div class="col"></div> -->
+                <div class="col-lg-6">
+                    <div class="carousel">
+                        <img class="image_l showing" src="images/TCL1.jpg">
+                        <img class="image_l" src="images/TCL2.jpg">
+                        <img class="image_l" src="images/TCL3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer id="footer">
           <div class="container">
@@ -50,6 +105,6 @@
 
     <script src="js/app.js"> </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
