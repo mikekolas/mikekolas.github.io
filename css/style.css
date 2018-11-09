@@ -179,14 +179,14 @@ nav a {
 
 .section1 {
   padding-top: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   background: #f7f7f7;
   font-family: Hanken-Book;
 }
 
 .section2 {
   padding-top: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   background: #f4ebdb;
   font-family: Hanken-Book;
 
@@ -212,7 +212,7 @@ nav a {
 
 .image_l {
   margin-top: 15px;
-  max-width: 500px;
+  max-width: 400px;
   border-radius: 15px;
   /*position: absolute;*/
   z-index: 1;
